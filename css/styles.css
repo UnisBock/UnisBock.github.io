@@ -414,6 +414,7 @@ figure {
 }
 .fixed-bg{
 	background-image: url("../background3.jpg");
+	display: block;
 	min-height: 500px;
   	background-attachment: fixed;
   	background-position: center;
