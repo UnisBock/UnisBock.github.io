@@ -354,7 +354,7 @@ figure {
 	height: 100%;
 }
 
-#fixed{
+/* #fixed{
 	background-image: url('../background3.jpg');
 	position: fixed;
 	display: block;
@@ -367,16 +367,16 @@ figure {
 	-webkit-transform: translateZ(0);
 			transform: translateZ(0);
 	will-change: transform;
-}
+} */
 .fixed-bg{
 	background-image: url("../img/background3.jpg");
-	display: block;
 	min-height: 500px;
   	background-attachment: fixed;
   	background-position: center;
   	background-repeat: no-repeat;
  	background-size: cover;
-  	opacity: 0.2;
+	opacity: 0.2;
+
 }
 
 
