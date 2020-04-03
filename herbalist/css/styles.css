@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400, 500, 700');
+html, body{
+	height: 100%;
+	width: 	100%;
+	font-family: 	'poppins', san-serif;
+	color: 	#222;
+}
+
+.heading-2{
+	color: rgb(214, 18, 18);
+}
+.navbar {
+	padding: .8rem;
+}
+.whatsapp-icon{
+	color:green;
+	font-size: 25px;
+}
+.phone-icon{
+	color:rgb(221, 138, 13);
+	font-size: 25px;
+}
+.email-icon{
+	color:rgb(230, 17, 17);
+	font-size: 25px;
+}
+.phone-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:180px;
+	right:40px;
+	background-color:#e6f334;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 1px 1px 3px #999;
+  	z-index:100;
+}
+.whatsapp-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  	font-size:30px;
+	box-shadow: 1px 1px 3px #999;
+ 	 z-index:100;
+}
+
+.email-float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:110px;
+	right:40px;
+	background-color:#e61414;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+ 	font-size:30px;
+	box-shadow: 1px 1px 3px #999;
+  	z-index:100;
+}
+
+
+.my-float{
+	margin-top:16px;
+}
+
+.prof-design{
+	color: rgb(66, 3, 107);
+	font-weight: bold;
+}
+.mike-design{
+	color:rgb(197, 10, 10);
+}
+#email-link{
+	color: blue;
+}
+.contact-nav{
+	border-bottom: 3px solid red;
+}
+.navbar-nav li{
+	padding-right: 20px;
+}
+
+.nav-link{
+	font-size:1.1em !important;
+}
+
+.carousel-inner img{
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption{
+	position: absolute;
+	top:45%;
+	transform: translateY(-50%); /*Display caption in the center of the image*/
+}
+
+.carousel-caption h1{
+	font-size: 500%;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 15px #000;
+}
+
+.carousel-caption h3{
+	font-size: 200%;
+	font-weight: 500;
+	text-shadow: 1px 1px 10px #000;
+	padding-bottom: 1rem;
+}
+
+
+.btn-primary{
+	background-color: #6648b1 !important;
+	border:1px solid  #6648b1 !important;
+}
+
+.btn-primary:hover{
+	background-color: #563d7c !important;
+	border:1px solid #563d7c !important;
+}
+
+.jumbotron{
+	padding: 	1rem;
+	border-radius: 	0;
+}
+
+.padding{
+	padding-bottom: 2rem;
+
+}
+
+.welcome{
+	width: 100%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.welcome p{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+.welcome hr{
+	border-top: 2px solid #b4b4b4;
+	width: 95%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.fa-code{
+	color: #e54d26;
+}
+
+.fa-bold{
+	color: #563d7c;
+}
+
+.fa-css3{
+	color: #2163af;
+}
+
+.fa-code, .fa-bold, .fa-css3{
+	font-size: 4em;
+	margin: 1rem;
+}
+
+.fun{
+	width: 100%;
+	margin-bottom: 2rem;
+}
+
+.gif{
+	max-width: 100%;
+}
+
+.social a{
+	font-size: 4.5em;
+	padding: 3rem;
+}
+.fa-facebook{
+	color: #3b5998;
+}
+
+.fa-twitter{
+	color: #00aced;
+}
+
+.fa-google-plus-g{
+	color: #dd4b39;
+}
+.fa-instagram{
+	color: #517fa4;
+}
+.fa-youtube{
+	color: #bb0000;
+}
+.fa-instagram:hover, 
+.fa-youtube:hover, 
+.fa-facebook:hover, 
+.fa-twitter:hover, 
+.fa-google-plus-g:hover,
+.fa-instagram:hover, 
+.fa-youtube:hover{
+	color: #d5d5d5;
+}
+
+footer{
+	background-color: #3f3f3f;
+	color: #d5d5d5;
+	padding-top: 2rem;
+}
+
+hr.light{
+	border-top: 1px solid /*#d5d5d5*/ lightblue;
+	width: 75%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+
+footer a{
+	color:#d5d5d5;
+}
+
+hr.light-100{
+	border-top: 1px solid #d5d5d5;
+	width: 100%;
+	margin-top: .8rem;
+	margin-bottom: 1rem;
+}
+.heading-text{
+	color: midnightblue;
+	font-weight: bold;
+}
+
+.abt-spells{
+	border-radius: 15px;
+	border:4px solid rgb(214, 18, 18);
+	width: 100%;
+}
+.card-img-top{
+	width: 100%;
+	height: 300px;
+}
+
+#herbalist-logo{
+	height: 50px;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+/* Media Queries*/
+@media (max-width: 992px){
+	.social a{
+		font-size: 4em;
+		padding: 2rem;
+
+	}
+
+}
+
+@media (max-width: 768px){
+	.carousel-caption{
+	top: 45%;
+}
+
+.carousel-caption h1{
+	font-size: 250%;
+}
+
+.carousel-caption h3{
+	font-size: 140%;
+	font-weight: 400;
+	padding-bottom: .2rem;
+}
+.carousel-caption .btn {
+	font-size: 95%;
+	padding:8px 14px;
+}
+.display-4{
+	font-size: 200%;
+}
+.social a{
+		font-size: 2.5em;
+		padding: 1.2rem;
+
+	}
+}
+
+@media (max-width: 576px){
+	.carousel-caption{
+	top: 40%;
+}
+
+.carousel-caption h1{
+	font-size: 250%;
+}
+
+.carousel-caption h3{
+	font-size: 110%;
+}
+.carousel-caption .btn {
+	font-size: 90%;
+	padding: 4px 8px;
+}
+.carousel-indicators{
+	display: none;
+}
+.display-4{
+	font-size: 160%;
+}
+.social a{
+		font-size: 2em;
+		padding: .7rem;
+
+	}
+
+	/* .phone-float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:45%;
+		right:30%;
+		background-color:#e6f334;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		  font-size:30px;
+		box-shadow: 1px 1px 3px #999;
+		  z-index:100;
+	}
+	.whatsapp-float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:38%;
+		right:30%;
+		background-color:#25d366;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		  font-size:30px;
+		box-shadow: 1px 1px 3px #999;
+		  z-index:100;
+	}
+	
+	.email-float{
+		position:fixed;
+		width:60px;
+		height:60px;
+		bottom:31%;
+		right:30%;
+		background-color:#e61414;
+		color:#FFF;
+		border-radius:50px;
+		text-align:center;
+		 font-size:30px;
+		box-shadow: 1px 1px 3px #999;
+		  z-index:100;
+	} */
+	
+}
+
+/*Firefox Bug Fix*/
+.carousel-item {
+	transition: -webkit-transform 0.5s ease;
+	transition: transform 0.5s ease;
+	transition: transform 0.5s ease, -webkit-transform 0.5s ease;
+	-webkit-backface-visibility: visible;
+}
+
+/*Fixed Background Image*/
+figure {
+	position: relative;
+	width: 100%;
+	height: 60%;
+	margin: 0!important;
+}
+
+.fixed-wrap {
+	clip: rect(0, auto, 0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+/*
+#fixed{
+	background-image: url('./img/background3.jpg');
+	position: fixed;
+	display: block;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center center;
+	-webkit-transform: translateZ(0);
+			transform: translateZ(0);
+	will-change: transform;
+}*/
+.fixed-bg{
+background-image: url('../img/background3.jpg');
+min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.2;
+}
+
+
+/*Bootstrap Padding Fix*/
+[class*="col-"]{
+	padding: 1rem;
+}
+
+
+/*
+	Extra small (xs) devices (portrait phone, less than 576px)
+	No media query since this is the default in bootstrap
+
+	Small (sm) devices (landscape phones, 576px and up)
+	@media (min-width: 576px) {...}
+
+	Medium (md) devices (tablets, 768px and up)
+	@media (min-width: 768px) {...}
+
+	Large (lg) devices (desktops, 992px and up)
+	@media (min-width: 992px) {...}
+
+	Extra Large (xl) devices (large desktops, 1200px and up)
+	@media (min-width: 1200px) {...}
+	
+
+*/
+
+.logo{
+	width: 10%;
+	height: 7%;
+}
