@@ -398,7 +398,7 @@ figure {
 	height: 100%;
 }
 
-#fixed{
+/* #fixed{
 	background-image: url('img/background3.jpg');
 	position: fixed;
 	display: block;
@@ -411,7 +411,7 @@ figure {
 	-webkit-transform: translateZ(0);
 			transform: translateZ(0);
 	will-change: transform;
-}
+} */
 .fixed-bg{
 background-image: url('img/background3.jpg');
 min-height: 500px;
