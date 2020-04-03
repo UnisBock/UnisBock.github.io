@@ -369,7 +369,7 @@ figure {
 	will-change: transform;
 }
 .fixed-bg{
-	background-image: url("../background3.jpg");
+	background-image: url("../img/background3.jpg");
 	display: block;
 	min-height: 500px;
   	background-attachment: fixed;
