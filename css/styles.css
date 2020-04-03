@@ -399,7 +399,7 @@ figure {
 }
 
 #fixed{
-	background-image: url('./img/background3.jpg');
+	background-image: url('img/background3.jpg');
 	position: fixed;
 	display: block;
 	top: 0;
