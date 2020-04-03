@@ -326,50 +326,6 @@ hr.light-100{
 		padding: .7rem;
 
 	}
-
-	/* .phone-float{
-		position:fixed;
-		width:60px;
-		height:60px;
-		bottom:45%;
-		right:30%;
-		background-color:#e6f334;
-		color:#FFF;
-		border-radius:50px;
-		text-align:center;
-		  font-size:30px;
-		box-shadow: 1px 1px 3px #999;
-		  z-index:100;
-	}
-	.whatsapp-float{
-		position:fixed;
-		width:60px;
-		height:60px;
-		bottom:38%;
-		right:30%;
-		background-color:#25d366;
-		color:#FFF;
-		border-radius:50px;
-		text-align:center;
-		  font-size:30px;
-		box-shadow: 1px 1px 3px #999;
-		  z-index:100;
-	}
-	
-	.email-float{
-		position:fixed;
-		width:60px;
-		height:60px;
-		bottom:31%;
-		right:30%;
-		background-color:#e61414;
-		color:#FFF;
-		border-radius:50px;
-		text-align:center;
-		 font-size:30px;
-		box-shadow: 1px 1px 3px #999;
-		  z-index:100;
-	} */
 	
 }
 
@@ -452,4 +408,13 @@ figure {
 .logo{
 	width: 10%;
 	height: 7%;
+}
+
+.container{
+	margin-bottom: 20px;
+	padding-top: 30px;
+	background: #cc2b5e;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #753a88, #cc2b5e);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #753a88, #cc2b5e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
