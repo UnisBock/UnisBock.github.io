@@ -5,7 +5,9 @@ html, body{
 	font-family: 	'poppins', san-serif;
 	color: 	#222;
 }
-
+.about-prof{
+	font-size: large;
+}
 .heading-2{
 	color: rgb(214, 18, 18);
 }
