@@ -8,6 +8,12 @@ html, body{
 .about-prof{
 	font-size: large;
 }
+#discalimer-content{
+	background-color: lightcoral;
+	margin-left: 12%;
+	margin-right: 12%;
+	margin-top: 0;
+}
 .heading-2{
 	color: rgb(214, 18, 18);
 }
