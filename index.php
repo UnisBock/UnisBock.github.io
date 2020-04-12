@@ -1,57 +1,16 @@
+<?php require_once("../resources/config.php") ?>
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Herbalist Natural Healer</title>
-	<link rel="stylesheet" type="text/css" href="css/styles.css">
-	<link rel="stylesheet" type="text/css" href="css/contact.css">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	
+<!-- LINKS -->
+<?php include(TEMPLATE_FRONT . DS . "links.php"); ?>
 
-</head>
 <body>
+	<!-- CONTACT  NAV -->
+	<?php include(TEMPLATE_FRONT . DS . "contact_nav.php"); ?>
+
 	<!-- TOP NAV -->
-	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top contact-nav" style="margin-top: 55px;">
-		<div class="container-fluid ">
-			<a class="navbar-brand" href="tel:+19493921526" ><span class="phone-icon"><i class="fas fa-phone"></i></span> +1 949-392-1526   </a>
-			<a class="navbar-brand" href="https://api.whatsapp.com/send?phone=256779320415&text=Hello Professor Mike, I got your whatsapp number from your website and I would like to  have your services."> <span class="whatsapp-icon"><i class="fab fa-whatsapp"></i></span> +256 779 320 415</a>
-			<a class="navbar-brand" href="mailto:info@herbalistnaturalhealer.com"><span class="email-icon"><i class="far fa-envelope"></i></span>  info@herbalistnaturalhealer.com</a>
-			<!-- <button class="navbar-toggler" type="button" data-toggler="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button> -->
-			<div class="collapse navbar-collapse" id="navbarResponsive">		
-			</div>
-		</div>
-	</nav>
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-		<div class="container-fluid">
-			<a class="navbar-brand" href="#"><span class="prof-design">HERBALIST</span> <span class="mike-design">NATURAL HEALER</span> </a>
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link active" href="index.html">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.html">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="lovespells.html">Love Spells</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.html">Contact Us</a>
-					</li>
-					
-				</ul>			
-			</div>
-			
-		</div>
-	</nav>
+	<?php include(TEMPLATE_FRONT . DS . "top_nav.php"); ?>
 	<!-- Image Slider -->
 	<div id="slides" class="carousel slide" data-ride="carousel" >
 		<ul class="carousel-indicators">
@@ -103,27 +62,10 @@
 	</div>
 	
 
-	<!-- <div class="container-fluid">
-		<div class="row Jumbotron">
-			<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 clo-xl-10">
-				<p class="lead"></p>
-			</div>
-			<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
-				<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg"></button></a>
-			</div>
-		</div>
-		
-	</div> -->
+
 	<!-- WHATSAPP API -->
 
-		<a href="tel:+19493921526" class="phone-float" target="_blank">
-		<i class="fas fa-phone my-float"></i></a>
-	
-		<a data-action="open" href="https://api.whatsapp.com/send?phone=256779320415&text=Hello Professor Mike, I got your whatsapp number from your website and I would like to  have your services." class="whatsapp-float" target="_blank">
-		<i class="fab fa-whatsapp my-float"></i></a>
-
-		<a href="mailto:info@herbalistnaturalhealer.com" class="email-float" target="_blank">
-		<i class="far fa-envelope my-float"></i></a>
+<?php include(TEMPLATE_FRONT . DS . "whatsapp_api.php"); ?>
 	
 	<!-- Welcome Section -->
 
@@ -155,7 +97,7 @@
 				<h2 class="heading-2">OUR SPELLS</h2>
 				<p>Do you have that special someone whom you love so dearly but they don't love you as much? Have you been in a relationship for far too long that you wonder if you will ever get married to the man in your life? Would you like to settle down with that woman of your dream? Do you have obstacles that are preventing your from getting the love you have always dreamt of? Do you keep getting financial difficulties and you seem not to know what is going on? Are you looking for a financial breakthrough? Do you feel you have been bewitched and you want to be set free? You have been closed to achieving so many things but they don't actually materialize, it seems you are not lucky enough. We have solutions for all those – We cast the best spells that are 100% guaranteed to work. Our love potions and charms are very effective. We have made spells for literally any problem.</p>
 				<br>
-				<a href="lovespells.html" class="btn btn-primary">Learn More</a>
+				<a href="spells.php" class="btn btn-primary">Learn More</a>
 			</div>
 			<div class="col-lg-6">
 				<img src="img/Page Uploads/spells_professor_mike.jpeg" alt="" class="im-fluid abt-spells">
@@ -185,7 +127,7 @@
 	
 	<!-- Cards -->
 	<div class="container-fluid padding">
-		<div class="row padding">
+		<div class="row padding m-5">
 			<div class="col-md-4">
 				<div class="card">
 					<img class="card-img-top" id="servieces-img" src="img/Page Uploads/love-spells-herbalist-natural-healer.jpg">
@@ -214,7 +156,7 @@
 				<div class="card">
 					<img class="card-img-top" src="img/Page Uploads/voodoo.jpeg">
 					<div class="card-body">
-						<h4 class="card-title">TRADITIONAL MAGIC</h4>
+						<h4 class="card-title">TRADITIONAL HEALING</h4>
 						<p>We have the power to influence the physical world via supernatural means. Whatever it is that you need, we have the right magic to make you achieve. You can have total control over everything. Seeking to influence another without his or her consent or against his or her will. This is the perfect place to be.</p>
 		
 					</div>
@@ -253,9 +195,8 @@
 					</div>
 				</div>
 			</div>
-			
+					<a href="spells.php" class="btn btn-danger fun"><b>CLICK HERE TO VIEW ALL SPELLS</b> </a>
 		</div>
-		
 	</div>
 	<hr class="my-4">
 
@@ -588,49 +529,8 @@
 </div>
 	<!-- Footer -->
 
-	<footer>
-		<div class="container-fluid padding">
-			<div class="row text-center">
-				<div class="col-md-4">
-					<a class="navbar-brand" href="#" id="herbalist-logo"><span class="">HERBALIST</span> <span class="">NATURAL HEALER</span> </a>
-					<hr class="light">
-					<p>+256 779 320 415</p>
-					<p>+1 949-392-1526</p>
-					<p>info@herbalistnaturalhealer.com</p>
-				</div>
+<?php include(TEMPLATE_FRONT . DS . "footer.php"); ?>
+<?php include(TEMPLATE_FRONT . DS . "js_links.php"); ?>
 
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>Our Hours</h5>
-					<hr class="light">
-					<p>We are open 24/7</p>
-				</div>
-
-				<div class="col-md-4">
-					<hr class="light">
-					<h5>Our Services</h5>
-					<hr class="light">
-					<p>Love Spells</p>
-					<p>Marriage Spells</p>
-					<p>Moneys Spells</p>
-					<p>White Magic</p>
-				</div>
-
-				<div class="col-12">
-					<hr class="light-100">
-					<h5>&copy Herbalist Natural Healer</h5>
-					
-				</div>
-			</div>
-		</div>
-	</footer>
-	<script src="script.js"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
-	<script src="https://use.fontawesome.com/releases/v5.12.0/js/all.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

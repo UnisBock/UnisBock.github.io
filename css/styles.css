@@ -388,6 +388,9 @@ figure {
 	opacity: 0.2;
 
 }
+body > div:nth-child(8) > div > div:nth-child(2) > img{
+	max-height: 400px;
+}
 .spells-image{
 	width: 100%;
 	border-radius: 20px;
@@ -405,7 +408,11 @@ figure {
 #spellcontainer p {
 	border-left: 1px solid rgb(185, 214, 16);
 	text-align: justify;
-  	text-justify: inter-word;
+	text-justify: inter-word;
+	font-size: 20px;  
+}
+#spellcontainer li {
+	font-size: 20px;  
 }
 .spells-heading{
 	text-align: center;
